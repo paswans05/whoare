@@ -5,7 +5,7 @@ from PIL import Image
 
 # MySQL connection
 db = mysql.connector.connect(
-    host="localhost", user="whoare", password="whoare", database="whoare"
+    host="localhost", user="root", password="", database="whoare"
 )
 cursor = db.cursor()
 
